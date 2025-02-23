@@ -1,27 +1,50 @@
-# Memoteca
+# Memoteca: Projeto Angular - Estudo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Este projeto foi desenvolvido durante o curso de Angular da Alura, com o objetivo de estudo. Durante a aula, foram disponibilizados os arquivos CSS, pois o foco principal era aprender a estrutura e os conceitos do Angular.
 
-## Development server
+## 📌 Tecnologias Utilizadas
+- **Angular** (framework front-end)
+- **TypeScript** (linguagem utilizada pelo Angular)
+- **JSON Server** (API fake para simular um back-end)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 O que foi aprendido
+- Estrutura básica de um projeto Angular
+- Criação e uso de componentes
+- Interpolação e data binding
+- Uso de diretivas (`*ngIf`, `*ngFor`)
+- Configuração de rotas com `RouterModule`
+- Serviços e injeção de dependência
+- Comunicação com API fake usando `HttpClient`
 
-## Code scaffolding
+## 🔧 Como executar o projeto
+### 1️⃣ Clonar o repositório:
+```bash
+ git clone https://github.com/almeidapietra/memoteca.git
+ cd memoteca
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 2️⃣ Instalar as dependências:
+```bash
+ npm install
+```
 
-## Build
+### 3️⃣ Iniciar o back-end (API fake):
+```bash
+ npm run start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 4️⃣ Em outro terminal, iniciar o Angular:
+```bash
+ ng serve
+```
 
-## Running unit tests
+O projeto estará disponível em `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## 📖 Notas Finais
+Este projeto serviu como um primeiro contato com Angular, permitindo a construção de uma aplicação funcional enquanto se aprende os conceitos fundamentais do framework. 🎯
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div> 
+    <a href = "mailto:costapietra@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/almeidapietra" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+</div>
